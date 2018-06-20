@@ -32,23 +32,22 @@ def modelos_selecion_gbm(i="BTC_ETH",k=1400,s=9858,cb=1):
                         
 #h2o.init(max_mem_size=14)
 
-#from h2o.estimators.random_forest import H2ORandomForestEstimator
-#9389 2481 9938 4755 4621 7401 8947 8790 6624 5976
-#modelos_selecion_gbm(i="BTC_ETH",k=14400,s=9389,cb=6)
-#modelos_selecion_gbm(i="BTC_ETH",k=14400,s=2481,cb=6)
-#modelos_selecion_gbm(i="BTC_ETH",k=14400,s=9938,cb=6)
-#modelos_selecion_gbm(i="BTC_ETH",k=14400,s=4755,cb=6)
-#modelos_selecion_gbm(i="BTC_ETH",k=14400,s=4621,cb=6)
-#modelos_selecion_gbm(i="BTC_ETH",k=14400,s=7401,cb=6)
-#modelos_selecion_gbm(i="BTC_ETH",k=14400,s=8947,cb=6)
-#modelos_selecion_gbm(i="BTC_ETH",k=14400,s=6624,cb=6)
-#modelos_selecion_gbm(i="BTC_ETH",k=14400,s=5976,cb=6)
-#modelos_selecion_gbm(i="BTC_ETH",k=14400,s=7233,cb=6)
-#modelos_selecion_gbm(i="BTC_ETH",k=14400,s=1777,cb=6)
-#modelos_selecion_gbm(i="BTC_ETH",k=14400,s=8052,cb=6)
-#modelos_selecion_gbm(i="BTC_ETH",k=14400,s=1174,cb=6)
-#modelos_selecion_gbm(i="BTC_ETH",k=14400,s=3670,cb=6)
-#modelos_selecion_gbm(i="BTC_ETH",k=14400,s=9542,cb=6)
+
+modelos_selecion_gbm(i="BTC_ETH",k=14400,s=9389,cb=6)
+modelos_selecion_gbm(i="BTC_ETH",k=14400,s=2481,cb=6)
+modelos_selecion_gbm(i="BTC_ETH",k=14400,s=9938,cb=6)
+modelos_selecion_gbm(i="BTC_ETH",k=14400,s=4755,cb=6)
+modelos_selecion_gbm(i="BTC_ETH",k=14400,s=4621,cb=6)
+modelos_selecion_gbm(i="BTC_ETH",k=14400,s=7401,cb=6)
+modelos_selecion_gbm(i="BTC_ETH",k=14400,s=8947,cb=6)
+modelos_selecion_gbm(i="BTC_ETH",k=14400,s=6624,cb=6)
+modelos_selecion_gbm(i="BTC_ETH",k=14400,s=5976,cb=6)
+modelos_selecion_gbm(i="BTC_ETH",k=14400,s=7233,cb=6)
+modelos_selecion_gbm(i="BTC_ETH",k=14400,s=1777,cb=6)
+modelos_selecion_gbm(i="BTC_ETH",k=14400,s=8052,cb=6)
+modelos_selecion_gbm(i="BTC_ETH",k=14400,s=1174,cb=6)
+modelos_selecion_gbm(i="BTC_ETH",k=14400,s=3670,cb=6)
+modelos_selecion_gbm(i="BTC_ETH",k=14400,s=9542,cb=6)
 
 
 def modelos_selecion_random_forest(i="BTC_ETH",k=1400,s=9858,cb=1):
@@ -72,23 +71,23 @@ def modelos_selecion_random_forest(i="BTC_ETH",k=1400,s=9858,cb=1):
                     print("Error: "+"resultados/{}/random_forest_{}_{}_{}_{}_{}_{}_{}_{}".format(i,i,k,cb,d,m,t,s))
 
                         
-#h2o.init(max_mem_size=14)
+h2o.init(max_mem_size=14)
 
-#modelos_selecion_random_forest(i="BTC_ETH",k=14400,s=9389,cb=6)
-#modelos_selecion_random_forest(i="BTC_ETH",k=14400,s=2481,cb=6)
-#modelos_selecion_random_forest(i="BTC_ETH",k=14400,s=9938,cb=6)
-#modelos_selecion_random_forest(i="BTC_ETH",k=14400,s=4755,cb=6)
-#modelos_selecion_random_forest(i="BTC_ETH",k=14400,s=4621,cb=6)
-#modelos_selecion_random_forest(i="BTC_ETH",k=14400,s=7401,cb=6)
-#modelos_selecion_random_forest(i="BTC_ETH",k=14400,s=8947,cb=6)
-#modelos_selecion_random_forest(i="BTC_ETH",k=14400,s=6624,cb=6)
-#modelos_selecion_random_forest(i="BTC_ETH",k=14400,s=5976,cb=6)
-#modelos_selecion_random_forest(i="BTC_ETH",k=14400,s=7233,cb=6)
-#modelos_selecion_random_forest(i="BTC_ETH",k=14400,s=1777,cb=6)
-#modelos_selecion_random_forest(i="BTC_ETH",k=14400,s=8052,cb=6)
-#modelos_selecion_random_forest(i="BTC_ETH",k=14400,s=1174,cb=6)
-#modelos_selecion_random_forest(i="BTC_ETH",k=14400,s=3670,cb=6)
-#modelos_selecion_random_forest(i="BTC_ETH",k=14400,s=9542,cb=6)
+modelos_selecion_random_forest(i="BTC_ETH",k=14400,s=9389,cb=6)
+modelos_selecion_random_forest(i="BTC_ETH",k=14400,s=2481,cb=6)
+modelos_selecion_random_forest(i="BTC_ETH",k=14400,s=9938,cb=6)
+modelos_selecion_random_forest(i="BTC_ETH",k=14400,s=4755,cb=6)
+modelos_selecion_random_forest(i="BTC_ETH",k=14400,s=4621,cb=6)
+modelos_selecion_random_forest(i="BTC_ETH",k=14400,s=7401,cb=6)
+modelos_selecion_random_forest(i="BTC_ETH",k=14400,s=8947,cb=6)
+modelos_selecion_random_forest(i="BTC_ETH",k=14400,s=6624,cb=6)
+modelos_selecion_random_forest(i="BTC_ETH",k=14400,s=5976,cb=6)
+modelos_selecion_random_forest(i="BTC_ETH",k=14400,s=7233,cb=6)
+modelos_selecion_random_forest(i="BTC_ETH",k=14400,s=1777,cb=6)
+modelos_selecion_random_forest(i="BTC_ETH",k=14400,s=8052,cb=6)
+modelos_selecion_random_forest(i="BTC_ETH",k=14400,s=1174,cb=6)
+modelos_selecion_random_forest(i="BTC_ETH",k=14400,s=3670,cb=6)
+modelos_selecion_random_forest(i="BTC_ETH",k=14400,s=9542,cb=6)
 
 
 def modelos_selecion_xgboost(i="BTC_ETH",k=1400,s=9858,cb=1):
@@ -115,7 +114,7 @@ def modelos_selecion_xgboost(i="BTC_ETH",k=1400,s=9858,cb=1):
                    
 h2o.init(max_mem_size=14)
 
-modelos_selecion_xgboost(i="BTC_ETH",k=14400,s=9389,cb=6)
+#modelos_selecion_xgboost(i="BTC_ETH",k=14400,s=9389,cb=6)
 #modelos_selecion_xgboost(i="BTC_ETH",k=14400,s=2481,cb=6)
 #modelos_selecion_xgboost(i="BTC_ETH",k=14400,s=9938,cb=6)
 #modelos_selecion_xgboost(i="BTC_ETH",k=14400,s=4755,cb=6)
@@ -130,21 +129,6 @@ modelos_selecion_xgboost(i="BTC_ETH",k=14400,s=9389,cb=6)
 #modelos_selecion_xgboost(i="BTC_ETH",k=14400,s=1174,cb=6)
 #modelos_selecion_xgboost(i="BTC_ETH",k=14400,s=3670,cb=6)
 #modelos_selecion_xgboost(i="BTC_ETH",k=14400,s=9542,cb=6)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
